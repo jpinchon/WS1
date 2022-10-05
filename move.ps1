@@ -1,0 +1,2 @@
+Move-Item -Path reenroll.ps1 -Destination C:\Temp\reenroll.ps1
+powershell -executionpolicy bypass -file C:\Temp\reenroll.ps1 -KeepAppsInstalled 'True' -Reenrolldevice "True" -DSServerURL "ds137.awmdm.com" -UserName "staginguser" -UserPassword "motdepasse" -OGID "LABTEST"
